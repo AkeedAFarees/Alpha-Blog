@@ -1,8 +1,12 @@
 $navbar-default-bg: black;
 
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  background: url('back.jpg') no-repeat center center;
+  background-size: cover;
+}
 
 #logo{
   float: left;
@@ -39,7 +43,9 @@ $navbar-default-bg: black;
 .jumbotron {
   background-image: asset-url('images.jpg');
   background-size: cover;
-  height: 550px;
+  height: 650px;
+  width: 1200px;
+  margin: auto;
 }
 
 .jumbotron h1{
@@ -47,7 +53,15 @@ $navbar-default-bg: black;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
-  dont-weight:bold;
+  font-weight:bold;
+}
+
+.navbar {
+  font-size: large;
+}
+
+.btn {
+  font-weight: bold;
 }
 
 .btn-xlarge {
@@ -80,6 +94,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #EAEAEA;
   color: #777;
+  width: 1200px;
 }
 
 footer a:hover {
