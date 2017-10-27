@@ -44,7 +44,7 @@ $navbar-default-bg: black;
   background-image: asset-url('images.jpg');
   background-size: cover;
   height: 650px;
-  width: 1200px;
+  width: auto;
   margin: auto;
 }
 
@@ -123,4 +123,9 @@ footer ul li {
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.search-bar {
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
