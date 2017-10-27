@@ -38,7 +38,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'listen', '>= 3.0.5', '< 3.2'
-gem 'pg', '~> 0.21.0'
+#gem 'pg', '~> 0.21.0'
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
