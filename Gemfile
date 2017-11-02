@@ -39,7 +39,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'listen', '>= 3.0.5', '< 3.2'
 
-gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+#gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 gem 'rails-controller-testing'
 
@@ -64,8 +64,8 @@ group :development do
 end
 
 group :production do
-  #gem 'pg', '~> 0.21.0'
-  #gem 'rails_12factor'
+  gem 'pg', '~> 0.21.0'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
